@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="example.css">
+    <style>
+      body{
+        background-color: black;
+      }
+      p{
+        font-size:22px;
+        color:white;
+      }
+      h3{
+        color:white;
+      }
+      .container{
+        display:flex;
+        margin-left:50px;
+       
+      }
+      .div1{
+        margin-right:30px;
+        position:relative;
+      }
+      .image{
+        opacity:1;
+        display:block;
+        transition:.5s ease;
+        backface-visibility:hidden;
+
+      }
+      .middle{
+        transition:.5s ease;
+        opacity:0;
+        position:absolute;
+        top:50%;
+        left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.div1:hover .image {
+  opacity: 0.3;
+}
+
+.div1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #111a16;
+  color: white;
+  font-size: 14px;
+  padding: 18px 34px;
+  border-radius: 25px;
+  cursor:pointer;
+  
+}
+      
+
+
+
+
+
+
+      .div2{
+        margin-right:30px;
+      }
+      .div3{
+        margin-right:30px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">AniCity</div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <!-- <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+    
+           
+    
+            </li>
+    
+          
+          
+
+
+            <a href=""><button class="btn">Register/Sign</button></a>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="div1"><img src="luffy.webp" width="250px" height="350px" class="image">
+          <div class="middle">
+            <div class="text">Luffy</div>
+          </div>
+        </div>
+        <div class="div1"><img src="zoro.png" width="250px" height="350px" class="image">
+          <div class="middle">
+            <div class="text">Zoro</div>
+          </div>
+        </div>
+        <div class="div1"><img src="usopp.jpg" width="250px" height="350px" class="image">
+          <div class="middle">
+            <div class="text">Usopp</div>
+          </div>
+        </div>
+        
+        <div class="div1"><img src="shanks.webp" width="250px" height="350px"  class="image">
+          <div class="middle">
+            <div class="text">Shank</div>
+          </div>
+        </div>
+        <div></div>
+      </div><br><br>
+
+      <h3>About</h3><br>
+      <p>1/ What's Anicity?<br>
+
+        Anicity is a free anime streaming site where you can watch anime online in HD quality for free with English subtitles or dubbing. You can also download any anime you want without registration or payment required. Everything is free!
+       
+        </p><br>
+      <p> 2/ Is Anicity to safe?<br>
+        
+        Yes. We started this site to improve UX and are committed to keeping our users safe. We encourage all our users to notify us if anything looks suspicious. Please understand that we do have to run advertisements to maintain the site.</p><br>
+      <p>3/ What make Anicity to the best site to watch anime free online?<br>
+        
+         Content library: We were only a few hundred of old animes behind kisanime when it was around. We have been adding new and old animes every hour to our library. You can find almost everything here. After the closing of kissanime, we become the largest anime library on the web.</p>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="example.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+<style>
+    .swiper {
+  width: 800px;
+  height: 450px;
+  margin-top:10px;
+  margin-left:550px;
+  border-radius: 25px;
+
+
+ 
+}
+body{
+    background-image: url(black.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    
+
+}
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">AniCity</div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <!-- <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+    
+          
+    
+            </li>
+    
+          
+          
+
+
+            <a href=""><button class="btn">Register/Sign</button></a>
+          </div>
+        </ul>
+      </nav>
+
+    <div class="lyrics"><p>The only anime platform<br>
+     you will ever need</p><br>
+    
+<div class="box">
+  <div>
+<button class="glow-on-hover" type="button">Check Now</button>
+</div>
+<div>
+  <button class="glow-on-hover" type="button">Watch Trailer</button>
+</div>
+
+</div>
+
+
+    
+    
+    
+    </div> 
+
+
+
+
+
+   
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="no1.webp" width="100%"></div>
+          <div class="swiper-slide"><img src="no2.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="no3.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="no4.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="no5.webp" width="100%"></div>
+          <div class="swiper-slide"><img src="no6.webp" width="100%"></div>
+          <div class="swiper-slide"><img src="no7.webp" width="100%"></div>
+          <div class="swiper-slide"><img src="no8.webp" width="100%"></div>
+          <div class="swiper-slide"><img src="11.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="22.png" width="100%"></div>
+          <div class="swiper-slide"><img src="no9.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="demon.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="no10.jpg" width="100%"></div>
+          <div class="swiper-slide"><img src="aot.jpg" width="100%"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+
+      <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+      
+        
+
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  autoplay: {
+    delay: 3000, // 3 seconds
+  },
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+      </script>
+</body>
+</html>
